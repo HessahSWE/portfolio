@@ -28,13 +28,18 @@
   flex: 10;
 }
 
-.n-list > ul {
+.n-list>ul {
   display: flex;
   gap: 2rem;
   margin-right: 4rem;
+  list-style: none;
 }
 
-.n-list > ul:hover {
+.n-list>ul>li:hover {
   cursor: pointer;
   color: var(--orange);
+}
+
+.n-button{
+  flex: 2;
 }
