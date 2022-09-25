@@ -1,28 +1,40 @@
-.n-wrapper{
+.n-wrapper {
   height: 10vh;
   display: flex;
-  justify-content:space-between;
-background-color: antiquewhite;
+  justify-content: space-between;
 }
-.n-left{
-flex: 1;
-align-items:center;
-display: flex;
-gap:2rem;
-background-color:yellow
-}
-.n-right{
+
+.n-left {
   flex: 1;
-  align-items:center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-right {
+  flex: 1;
+  align-items: center;
   display: flex;
   justify-content: center;
   font-weight: 400;
-  background-color:yellow
-  }
-  .n-name{
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .n-list{
-  flex:10;
-  }
+}
+
+.n-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.n-list {
+  flex: 10;
+}
+
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+
+.n-list > ul:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
