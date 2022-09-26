@@ -27,3 +27,13 @@
   font-weight: bold;
   font-size: 3rem;
 }
+.i-name>:nth-child(3) {
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.i-button{
+  width: 6rem;
+  height: 2rem;
+}
